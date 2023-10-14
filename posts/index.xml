@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Game of Life</title>
+    <link>https://ira-zibbu.github.io/posts/</link>
+    <description>Recent content in Posts on Game of Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Oct 2023 22:44:12 +0530</lastBuildDate><atom:link href="https://ira-zibbu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Good morning</title>
+      <link>https://ira-zibbu.github.io/posts/hellworld/</link>
+      <pubDate>Sat, 14 Oct 2023 22:44:12 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/posts/hellworld/</guid>
+      <description>mic testing one twothree</description>
+    </item>
+    
+  </channel>
+</rss>
