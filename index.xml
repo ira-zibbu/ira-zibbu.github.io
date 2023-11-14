@@ -5,14 +5,23 @@
     <link>https://ira-zibbu.github.io/</link>
     <description>Recent content on Game of Life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Oct 2023 22:44:12 +0530</lastBuildDate><atom:link href="https://ira-zibbu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 May 2023 22:44:12 +0530</lastBuildDate><atom:link href="https://ira-zibbu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Good morning the sequal</title>
-      <link>https://ira-zibbu.github.io/post/ltee-post/</link>
-      <pubDate>Sat, 14 Oct 2023 22:44:12 +0530</pubDate>
+      <title>Aatmanirbhar: Self-Generated Chemoattractant Gradients Drive Robust Chemotaxis</title>
+      <link>https://ira-zibbu.github.io/post/self-generated-chemotaxis/</link>
+      <pubDate>Tue, 09 May 2023 22:44:12 +0530</pubDate>
       
-      <guid>https://ira-zibbu.github.io/post/ltee-post/</guid>
-      <description>This is another poist</description>
+      <guid>https://ira-zibbu.github.io/post/self-generated-chemotaxis/</guid>
+      <description>Chemotaxis is the movement of cells along a chemical gradient. From Escherichia coli to Homo sapiens, it is a highly conserved behaviour that enables directed cell movement. For motile unicellular organisms, chemotaxis enables movement towards resources like nutrition and space and away from toxins or competitors. For multicellular organisms like metazoans, chemotaxis drives coordinated cell movements during development, such as gastrulation, germ cell migration, and neural crest cell migration. Immune cells like leukocytes use chemotaxis to move towards sites of infection.</description>
+    </item>
+    
+    <item>
+      <title>The Beginner’s Guide - A Review</title>
+      <link>https://ira-zibbu.github.io/post/beginners-guide-review/</link>
+      <pubDate>Wed, 12 Feb 2020 20:47:12 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/post/beginners-guide-review/</guid>
+      <description>About two days into my one week quarantine in Anamudi, I decided to pick up a video game I had been gifted a while ago by my friend but had never gotten around to playing. The Beginner’s Guide was released by Everything Unlimited Ltd. on 1st October, 2015 for Windows, OS X and Linux. It isn’t a video game in the traditional sense, but is very on brand for its creator, Davey Wrenden.</description>
     </item>
     
   </channel>
