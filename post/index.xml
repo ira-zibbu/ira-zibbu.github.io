@@ -5,7 +5,18 @@
     <link>https://ira-zibbu.github.io/post/</link>
     <description>Recent content in Posts on Game of Life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 May 2023 22:44:12 +0530</lastBuildDate><atom:link href="https://ira-zibbu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Nov 2023 11:25:12 +0530</lastBuildDate><atom:link href="https://ira-zibbu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>whoami: a brief introduction</title>
+      <link>https://ira-zibbu.github.io/post/whoami/</link>
+      <pubDate>Wed, 15 Nov 2023 11:25:12 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/post/whoami/</guid>
+      <description>The whoami command amused me when I first learned it. Here I was, asking my shell one of the most profound questions in human history:
+$ whoami My shell, oblivious to any such philosophical musings, always echoes the same answer back:
+ira Welcome to my blog! My name is Ira Zibbu. I spend most of my time fiddling around computers and thinking about evolution. I am currently finishing my Master&amp;rsquo;s in Science at the Indian Institute of Science Education and Research, Thiruvananthapuram.</description>
+    </item>
+    
     <item>
       <title>Aatmanirbhar: Self-Generated Chemoattractant Gradients Drive Robust Chemotaxis</title>
       <link>https://ira-zibbu.github.io/post/self-generated-chemotaxis/</link>

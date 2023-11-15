@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ira-zibbu.github.io/post/self-generated-chemotaxis/</loc>
-    <lastmod>2023-05-09T22:44:12+05:30</lastmod>
-  </url><url>
     <loc>https://ira-zibbu.github.io/</loc>
-    <lastmod>2023-05-09T22:44:12+05:30</lastmod>
+    <lastmod>2023-11-15T11:25:12+05:30</lastmod>
   </url><url>
     <loc>https://ira-zibbu.github.io/post/</loc>
+    <lastmod>2023-11-15T11:25:12+05:30</lastmod>
+  </url><url>
+    <loc>https://ira-zibbu.github.io/post/whoami/</loc>
+    <lastmod>2023-11-15T11:25:12+05:30</lastmod>
+  </url><url>
+    <loc>https://ira-zibbu.github.io/post/self-generated-chemotaxis/</loc>
     <lastmod>2023-05-09T22:44:12+05:30</lastmod>
   </url><url>
     <loc>https://ira-zibbu.github.io/post/bigness-of-some-things/</loc>
