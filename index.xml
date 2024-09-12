@@ -2,75 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Game of Life</title>
-    <link>https://ira-zibbu.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Game of Life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Mar 2024 12:25:19 +0530</lastBuildDate><atom:link href="https://ira-zibbu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Mar 2024 12:25:19 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Collected Writings</title>
-      <link>https://ira-zibbu.github.io/post/collected-writings/</link>
+      <link>http://localhost:1313/post/collected-writings/</link>
       <pubDate>Tue, 05 Mar 2024 12:25:19 +0530</pubDate>
       
-      <guid>https://ira-zibbu.github.io/post/collected-writings/</guid>
-      <description>Here is a (mostly) exhaustive list of my writings that were publicly published from 2019 to the present. I&amp;rsquo;ve listed them in reverse chronological order. I have three places I personally publish frequently on - this blog, my substack and my medium blog. In the past, I was associated with Exhibit A and Ether Magazine. I&amp;rsquo;m grateful to everyone who has ever read my work, provided me with feedback or made artwork for the articles.</description>
+      <guid>http://localhost:1313/post/collected-writings/</guid>
+      <description>&lt;p&gt;Here is a (mostly) exhaustive list of my writings that were publicly published from 2019 to the present. I&amp;rsquo;ve listed them in reverse chronological order. I have three places I personally publish frequently on - &lt;a href=&#34;https://ira-zibbu.github.io/post/&#34;&gt;this blog&lt;/a&gt;, &lt;a href=&#34;https://irazibbu.substack.com/&#34;&gt;my substack&lt;/a&gt; and &lt;a href=&#34;https://ira-zibbu.medium.com/&#34;&gt;my medium blog&lt;/a&gt;. In the past, I was associated with &lt;a href=&#34;https://www.exhibita.in/&#34;&gt;Exhibit A&lt;/a&gt; and &lt;a href=&#34;https://etherthemag.wixsite.com/etherthemag&#34;&gt;Ether Magazine&lt;/a&gt;. I&amp;rsquo;m grateful to everyone who has ever read my work, provided me with feedback or made artwork for the articles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Internships in STEM II - What kind of Internships Can I Do?</title>
-      <link>https://ira-zibbu.github.io/post/internships-in-stem-what-kind/</link>
+      <link>http://localhost:1313/post/internships-in-stem-what-kind/</link>
       <pubDate>Fri, 02 Feb 2024 15:35:00 +0530</pubDate>
       
-      <guid>https://ira-zibbu.github.io/post/internships-in-stem-what-kind/</guid>
-      <description>When it comes to internships in STEM, I broadly think of them as two kinds: research-based and non research-based.
-Research-based internships Research based internships are those that involve conducting scientific research, or learning skills directly relevant to conducting scientific research. These would fall largely into one of two categories:
-Academia These internships happen at research labs in universities and colleges (eg: University of Delhi) and government research institutions (eg: National Institute of Immunology).</description>
+      <guid>http://localhost:1313/post/internships-in-stem-what-kind/</guid>
+      <description>&lt;p&gt;When it comes to internships in STEM, I broadly think of them as two kinds: research-based and non research-based.&lt;/p&gt;
+&lt;h2 id=&#34;research-based-internships&#34;&gt;Research-based internships&lt;/h2&gt;
+&lt;p&gt;Research based internships are those that involve conducting scientific research, or learning skills directly relevant to conducting scientific research. These would fall largely into one of two categories:&lt;/p&gt;
+&lt;h3 id=&#34;academia&#34;&gt;Academia&lt;/h3&gt;
+&lt;p&gt;These internships happen at research labs in universities and colleges (eg: University of Delhi) and government research institutions (eg: National Institute of Immunology). These labs are  headed by a principal investigator (PI), who is responsible for deciding the research direction of the lab, securing funding, mentoring students and a lot more. The PI is also a professor at the institution, and may have teaching and administrative responsibilities in this regard. Most of the actual research in the lab is usually done by the rest of the members: graduate students (people pursuing their PhD or master&amp;rsquo;s degree), post-doctoral members (someone who has already received their PhD, hence &lt;em&gt;post&lt;/em&gt; doctoral), research associates, research assistants, undergraduate students, and interns like you! Sometimes labs also have other staff like lab managers and administrative assistants. In academic labs, there may be several on-going projects that revolve around the central research theme of the lab, and each project may have one or more people working on them.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Internships in STEM I - A Brief Introduction</title>
-      <link>https://ira-zibbu.github.io/post/internships-in-stem-introduction/</link>
+      <link>http://localhost:1313/post/internships-in-stem-introduction/</link>
       <pubDate>Wed, 10 Jan 2024 11:13:13 +0530</pubDate>
       
-      <guid>https://ira-zibbu.github.io/post/internships-in-stem-introduction/</guid>
-      <description>I can&amp;rsquo;t remember who told me this, but they said, &amp;ldquo;If you&amp;rsquo;re smart, you will learn from your experiences. But if you are really smart, you learn from other people&amp;rsquo;s experiences&amp;rdquo;. This sentiment was one that I often thought about at the start of each year during my BS-MS when I would begin looking for internships. Between 2020 and 2023, I successively got better at identifying my research interests, locating relevant labs, and applying for funding (i.</description>
+      <guid>http://localhost:1313/post/internships-in-stem-introduction/</guid>
+      <description>&lt;p&gt;I can&amp;rsquo;t remember who told me this, but they said, &amp;ldquo;If you&amp;rsquo;re smart, you will learn from your experiences. But if you are really smart, you learn from other people&amp;rsquo;s experiences&amp;rdquo;. This sentiment was one that I often thought about at the start of each year during my BS-MS when I would begin looking for internships. Between 2020 and 2023, I successively got better at identifying my research interests, locating relevant labs, and applying for funding (i.e., I learned from my experiences), but I also made a lot of mistakes that I felt were avoidable if someone had just given me a heads up before. I wish I had the benefit of other people&amp;rsquo;s hindsight (i.e., learning from their experiences). I graduate this year, so I won&amp;rsquo;t be applying for any more internships, but I would like to document the cumulative sum of my experiences for others. Simply put, I will tell you about my mistakes so you don&amp;rsquo;t have to make them.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>whoami: a brief introduction</title>
-      <link>https://ira-zibbu.github.io/post/whoami/</link>
+      <link>http://localhost:1313/post/whoami/</link>
       <pubDate>Wed, 15 Nov 2023 11:25:12 +0530</pubDate>
       
-      <guid>https://ira-zibbu.github.io/post/whoami/</guid>
-      <description>The whoami command amused me when I first learned it. Here I was, asking my shell one of the most profound questions in human history:
-$ whoami My shell, oblivious to any such philosophical musings, always echoes the same answer back:
-ira Welcome to my blog! My name is Ira Zibbu. I spend most of my time fiddling around computers and thinking about evolution. I am currently finishing my Master&amp;rsquo;s in Science at the Indian Institute of Science Education and Research, Thiruvananthapuram.</description>
+      <guid>http://localhost:1313/post/whoami/</guid>
+      <description>&lt;p&gt;The &lt;em&gt;whoami&lt;/em&gt; command amused me when I first learned it. Here I was, asking my shell one of the most profound questions in human history:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ whoami                            
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;My shell, oblivious to any such philosophical musings, always echoes the same answer back:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ira
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Welcome to my blog! My name is Ira Zibbu. I spend most of my time fiddling around computers and thinking about evolution. I am currently finishing my Master&amp;rsquo;s in Science at the Indian Institute of Science Education and Research, Thiruvananthapuram. I&amp;rsquo;m broadly interested in experimental evolution, evolutionary dynamics, microbial genomics and genetics, next-generation sequencing, and synthetic biology.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Aatmanirbhar: Self-Generated Chemoattractant Gradients Drive Robust Chemotaxis</title>
-      <link>https://ira-zibbu.github.io/post/self-generated-chemotaxis/</link>
+      <link>http://localhost:1313/post/self-generated-chemotaxis/</link>
       <pubDate>Tue, 09 May 2023 22:44:12 +0530</pubDate>
       
-      <guid>https://ira-zibbu.github.io/post/self-generated-chemotaxis/</guid>
-      <description>Chemotaxis is the movement of cells along a chemical gradient. From Escherichia coli to Homo sapiens, it is a highly conserved behaviour that enables directed cell movement. For motile unicellular organisms, chemotaxis enables movement towards resources like nutrition and space and away from toxins or competitors. For multicellular organisms like metazoans, chemotaxis drives coordinated cell movements during development, such as gastrulation, germ cell migration, and neural crest cell migration. Immune cells like leukocytes use chemotaxis to move towards sites of infection.</description>
+      <guid>http://localhost:1313/post/self-generated-chemotaxis/</guid>
+      <description>&lt;p&gt;Chemotaxis is the movement of cells along a chemical gradient. From &lt;em&gt;Escherichia coli&lt;/em&gt; to &lt;em&gt;Homo sapiens&lt;/em&gt;, it is a highly conserved behaviour that enables directed cell movement. For motile unicellular organisms, chemotaxis enables movement towards resources like nutrition and space and away from toxins or competitors. For multicellular organisms like metazoans, chemotaxis drives coordinated cell movements during development, such as gastrulation, germ cell migration, and neural crest cell migration. Immune cells like leukocytes use chemotaxis to move towards sites of infection. Defects in chemotaxis have been associated with diseases such as craniofacial disorders (defective neural crest cell migration) and autoimmunity (defective leukocyte chemotaxis) [1].&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>on the bigness of some things</title>
-      <link>https://ira-zibbu.github.io/post/bigness-of-some-things/</link>
+      <link>http://localhost:1313/post/bigness-of-some-things/</link>
       <pubDate>Wed, 23 Mar 2022 09:22:32 +0530</pubDate>
       
-      <guid>https://ira-zibbu.github.io/post/bigness-of-some-things/</guid>
-      <description>I think what drew me to astronomy as a kid was the sheer size of everything; the bigness of it all. “Proxima Centauri is a small, low-mass star located 4.2465 light-years away from the Sun in the southern constellation of Centaurus”, says Wikipedia. One light year is about 9.46 x 10^12 kilometres. I have an intuitive sense of what one kilometre feels like; it is roughly the distance between my house and the supermarket I frequent.</description>
+      <guid>http://localhost:1313/post/bigness-of-some-things/</guid>
+      <description>&lt;p&gt;I think what drew me to astronomy as a kid was the sheer size of everything; the bigness of it all. “Proxima Centauri is a small, low-mass star located 4.2465 light-years away from the Sun in the southern constellation of Centaurus”, says Wikipedia. One light year is about 9.46 x 10^12 kilometres. I have an intuitive sense of what one kilometre feels like; it is roughly the distance between my house and the supermarket I frequent. I envision this distance in my head and then I multiply it– twice, thrice, five times, ten times. After a while, as the distance grows, I can feel it  slipping from my mind because I’m approaching the limit of what my imagination is capable of. One light year is so monstrously large a number that no distance from my human experience can possibly be used to visualise it.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The Beginner’s Guide - A Review</title>
-      <link>https://ira-zibbu.github.io/post/beginners-guide-review/</link>
+      <link>http://localhost:1313/post/beginners-guide-review/</link>
       <pubDate>Wed, 12 Feb 2020 20:47:12 +0530</pubDate>
       
-      <guid>https://ira-zibbu.github.io/post/beginners-guide-review/</guid>
-      <description>About two days into my one week quarantine in Anamudi, I decided to pick up a video game I had been gifted a while ago by my friend but had never gotten around to playing. The Beginner’s Guide was released by Everything Unlimited Ltd. on 1st October, 2015 for Windows, OS X and Linux. It isn’t a video game in the traditional sense, but is very on brand for its creator, Davey Wrenden.</description>
+      <guid>http://localhost:1313/post/beginners-guide-review/</guid>
+      <description>&lt;p&gt;About two days into my one week quarantine in Anamudi, I decided to pick up a video game I had been gifted a while ago by my friend but had never gotten around to playing. &lt;em&gt;The Beginner’s Guide&lt;/em&gt; was released by Everything Unlimited Ltd. on 1st October, 2015 for Windows, OS X and Linux. It isn’t a video game in the traditional sense, but is very on brand for its creator, Davey Wrenden. Wreden was the brains behind The &lt;em&gt;Stanley Parable&lt;/em&gt; (2011), another one of my favourite games. Like its predecessor, &lt;em&gt;The Beginner’s Guide&lt;/em&gt; is an interactive storytelling game, and offers commentary on the art and process of game development.&lt;/p&gt;</description>
     </item>
     
   </channel>

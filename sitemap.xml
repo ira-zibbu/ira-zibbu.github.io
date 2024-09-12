@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ira-zibbu.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-03-05T12:25:19+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/post/collected-writings/</loc>
+    <loc>http://localhost:1313/post/collected-writings/</loc>
     <lastmod>2024-03-05T12:25:19+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-03-05T12:25:19+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/post/internships-in-stem-what-kind/</loc>
+    <loc>http://localhost:1313/post/internships-in-stem-what-kind/</loc>
     <lastmod>2024-02-02T15:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/post/internships-in-stem-introduction/</loc>
+    <loc>http://localhost:1313/post/internships-in-stem-introduction/</loc>
     <lastmod>2024-01-10T11:13:13+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/post/whoami/</loc>
+    <loc>http://localhost:1313/post/whoami/</loc>
     <lastmod>2023-11-15T11:25:12+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/post/self-generated-chemotaxis/</loc>
+    <loc>http://localhost:1313/post/self-generated-chemotaxis/</loc>
     <lastmod>2023-05-09T22:44:12+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/post/bigness-of-some-things/</loc>
+    <loc>http://localhost:1313/post/bigness-of-some-things/</loc>
     <lastmod>2022-03-23T09:22:32+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/post/beginners-guide-review/</loc>
+    <loc>http://localhost:1313/post/beginners-guide-review/</loc>
     <lastmod>2020-02-12T20:47:12+05:30</lastmod>
   </url><url>
-    <loc>https://ira-zibbu.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://ira-zibbu.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
