@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ira-zibbu.github.io/sitemap.xml

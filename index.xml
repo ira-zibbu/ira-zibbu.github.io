@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game of Life</title>
+    <link>https://ira-zibbu.github.io/</link>
+    <description>Recent content on Game of Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Ira Zibbu</copyright>
+    <lastBuildDate>Tue, 05 Mar 2024 12:25:19 +0530</lastBuildDate><atom:link href="https://ira-zibbu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Collected Writings</title>
+      <link>https://ira-zibbu.github.io/posts/collected-writings/</link>
+      <pubDate>Tue, 05 Mar 2024 12:25:19 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/posts/collected-writings/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Internships in STEM II - What kind of Internships Can I Do?</title>
+      <link>https://ira-zibbu.github.io/posts/internships-in-stem-what-kind/</link>
+      <pubDate>Fri, 02 Feb 2024 15:35:00 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/posts/internships-in-stem-what-kind/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Internships in STEM I - A Brief Introduction</title>
+      <link>https://ira-zibbu.github.io/posts/internships-in-stem-introduction/</link>
+      <pubDate>Wed, 10 Jan 2024 11:13:13 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/posts/internships-in-stem-introduction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>whoami: a brief introduction</title>
+      <link>https://ira-zibbu.github.io/about/</link>
+      <pubDate>Wed, 15 Nov 2023 11:25:12 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/about/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Aatmanirbhar: Self-Generated Chemoattractant Gradients Drive Robust Chemotaxis</title>
+      <link>https://ira-zibbu.github.io/posts/self-generated-chemotaxis/</link>
+      <pubDate>Tue, 09 May 2023 22:44:12 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/posts/self-generated-chemotaxis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>on the bigness of some things</title>
+      <link>https://ira-zibbu.github.io/posts/bigness-of-some-things/</link>
+      <pubDate>Wed, 23 Mar 2022 09:22:32 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/posts/bigness-of-some-things/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Beginner’s Guide - A Review</title>
+      <link>https://ira-zibbu.github.io/posts/beginners-guide-review/</link>
+      <pubDate>Wed, 12 Feb 2020 20:47:12 +0530</pubDate>
+      
+      <guid>https://ira-zibbu.github.io/posts/beginners-guide-review/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
