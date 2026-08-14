@@ -25,26 +25,19 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "nav-submenus",
+          title: "submenus",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/_pages/dropdown/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -475,42 +468,28 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/Ira_Zibbu_CV_2026.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("mailto:%7A%69%62%62%75%69%72%61@%6D%73%75.%65%64%75", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=t6vdt1EAAAAJ&hl", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://irazibbu.substack.com", "_blank");
         },
       },{
       id: 'light-theme',
