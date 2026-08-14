@@ -1,14 +1,14 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+cv_pdf: /assets/pdf/Ira_Zibbu_CV_2026.pdf # path to your CV PDF file
+email: zibbuira@msu.edu # your email address
+#inspirehep_id: 1010907 # Inspire HEP author ID
+#rss_icon: true # comment this line to hide the RSS icon
+scholar_userid: t6vdt1EAAAAJ&hl # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+  logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsubstackcdn.com%2Fimage%2Ffetch%2Ff_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep%2Fhttps%253A%252F%252Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%252Fpublic%252Fimages%252Fba81cfff-7bc5-4aef-866e-864d0942c42d_1000x1000.png&f=1&nofb=1&ipt=6462eede44c212fe955582a17a5e44eeeba7bc14a0cab9d351bb138a548c7521 # can be png, svg, jpg
+  title: Substack
+  url: https://irazibbu.substack.com
