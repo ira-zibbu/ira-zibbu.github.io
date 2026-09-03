@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Align the Read</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="intro-reference-view" class="view">
+    <p class="eyebrow">Step 1 of 3</p>
+    <h1>What Is a Reference Sequence?</h1>
+    <p class="intro-text">
+      A reference sequence is a "map" genome that scientists agree to use as a common standard,
+      much like a well-known city map everyone navigates by. It's a long string of DNA bases
+      (A, T, G, C) representing a typical version of an organism's genome. When researchers
+      sequence a new sample, they compare it against this reference to spot differences or
+      confirm matches. It won't perfectly match any one individual, but it gives everyone a
+      shared set of coordinates to work from. In this game, our toy genome plays the role of
+      a reference sequence.
+    </p>
+    <button id="intro-reference-next-btn" class="primary-btn">Next &rarr;</button>
+  </section>
+
+  <section id="intro-read-view" class="view hidden">
+    <p class="eyebrow">Step 2 of 3</p>
+    <h1>What Is a Read?</h1>
+    <p class="intro-text">
+      A sequencing machine can't read an entire genome in one pass, so it chops the DNA into
+      millions of short fragments and reads each one separately. Each of these short fragments
+      is called a "read," often just tens to hundreds of bases long. Reads are like puzzle
+      pieces: alone they don't tell you much, but together they can reconstruct or be compared
+      against a full genome. In this game, the short snippet you're given is a read pulled from
+      somewhere in the reference genome, and your job is to figure out where it belongs.
+    </p>
+    <button id="intro-read-next-btn" class="primary-btn">Next &rarr;</button>
+  </section>
+
+  <section id="intro-aligner-view" class="view hidden">
+    <p class="eyebrow">Step 3 of 3</p>
+    <h1>What Is an Aligner?</h1>
+    <p class="intro-text">
+      An aligner is a program that takes reads and figures out where each one best matches
+      within a reference sequence, like a search tool scanning for the exact spot a short
+      snippet came from. This step, called "alignment," is one of the very first things done
+      in most genomics analyses, since you need to know where a read came from before you can
+      study mutations or gene activity. Real aligners handle millions of reads at once and
+      tolerate small mismatches, but the core idea is the same one you're about to try. In the
+      next steps, you'll play the role of an aligner!
+    </p>
+    <button id="intro-aligner-next-btn" class="primary-btn">See the Genome &rarr;</button>
+  </section>
+
+  <section id="genome-view" class="view hidden">
+    <h1>The Toy Genome</h1>
+    <p class="subtitle">Here's our 30bp reference genome. Take a look before you start aligning reads to it.</p>
+    <div id="genome-strip-1" class="genome-strip"></div>
+    <div class="legend">
+      <span class="legend-item"><span class="base base-A">A</span> Adenine</span>
+      <span class="legend-item"><span class="base base-T">T</span> Thymine</span>
+      <span class="legend-item"><span class="base base-G">G</span> Guanine</span>
+      <span class="legend-item"><span class="base base-C">C</span> Cytosine</span>
+    </div>
+    <button id="start-btn" class="primary-btn">Start Aligning &rarr;</button>
+  </section>
+
+  <section id="align-view" class="view hidden">
+    <h1>Align the Read</h1>
+    <p class="subtitle" id="round-indicator">Read 1 of 5</p>
+
+    <div id="read-tray" class="read-tray"></div>
+
+    <div id="track" class="track"></div>
+
+    <p id="feedback" class="feedback"></p>
+
+    <div id="insight-prompt" class="insight-prompt hidden">
+      <label for="insight-answer-input" class="insight-prompt-label">Did you notice something?</label>
+      <textarea id="insight-answer-input" class="insight-answer-input" rows="2" placeholder="Type what you noticed here..."></textarea>
+      <button id="reveal-insight-btn" class="primary-btn">Show Me &rarr;</button>
+    </div>
+
+    <p id="insight-callout" class="insight-callout hidden"></p>
+
+    <div class="controls">
+      <button id="check-btn" class="primary-btn">Check Alignment</button>
+      <button id="next-btn" class="primary-btn hidden">Next Read &rarr;</button>
+    </div>
+
+    <p class="score" id="score-indicator">Score: 0</p>
+  </section>
+
+  <section id="level-summary-view" class="view hidden">
+    <h1>Sample Complete!</h1>
+    <p class="subtitle" id="level-summary-text"></p>
+    <button id="continue-level2-btn" class="primary-btn">Look at the Next Sample &rarr;</button>
+  </section>
+
+  <section id="coverage-intro-view" class="view hidden">
+    <p class="eyebrow">Before Sample 3</p>
+    <h1>What Is Coverage?</h1>
+    <p class="intro-text">
+      Coverage is how many different reads overlap a given position in the genome. If ten
+      separate reads all happen to include base #50, that base has "10x coverage." Higher
+      coverage gives scientists more confidence in what's really there, since a random error
+      in one read gets outvoted by all the others that agree. Very low or zero coverage means
+      we simply don't have data for that spot — sometimes by chance, but sometimes because
+      that piece of DNA is genuinely missing from the sample. In the next sample, pay close
+      attention to how your reads pile up across the genome.
+    </p>
+    <button id="coverage-intro-next-btn" class="primary-btn">See the Next Sample &rarr;</button>
+  </section>
+
+  <section id="summary-view" class="view hidden">
+    <h1>Nice Work!</h1>
+    <p class="subtitle" id="summary-text"></p>
+    <button id="replay-btn" class="primary-btn">Play Again</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
