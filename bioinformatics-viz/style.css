@@ -1,0 +1,305 @@
+:root {
+  --bg: #0f172a;
+  --panel: #1e293b;
+  --text: #e2e8f0;
+  --subtext: #94a3b8;
+  --accent: #38bdf8;
+  --correct: #22c55e;
+  --incorrect: #ef4444;
+
+  --color-A: #ef4444;
+  --color-T: #38bdf8;
+  --color-G: #22c55e;
+  --color-C: #f59e0b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 2rem 1rem;
+}
+
+.view {
+  max-width: 960px;
+  width: 100%;
+  text-align: center;
+}
+
+.hidden { display: none; }
+
+h1 { margin-bottom: 0.25rem; }
+
+.subtitle {
+  color: var(--subtext);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.intro-text {
+  color: var(--text);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  text-align: left;
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+/* Base coloring, shared by genome strip, track cells, and the read pill */
+.base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: "SF Mono", Consolas, Menlo, monospace;
+  color: #0f172a;
+  border-radius: 4px;
+}
+
+.base-A { background: var(--color-A); }
+.base-T { background: var(--color-T); }
+.base-G { background: var(--color-G); }
+.base-C { background: var(--color-C); }
+
+.genome-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.genome-strip .base {
+  width: 42px;
+  height: 54px;
+  font-size: 1.4rem;
+}
+
+.legend {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  color: var(--subtext);
+  font-size: 0.9rem;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legend-item .base {
+  width: 22px;
+  height: 22px;
+  font-size: 0.8rem;
+}
+
+.primary-btn {
+  background: var(--accent);
+  color: #0f172a;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.primary-btn:hover { opacity: 0.9; }
+.primary-btn:active { transform: scale(0.97); }
+
+/* --- Align view --- */
+
+.read-tray {
+  min-height: 44px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.read-pill {
+  display: flex;
+  gap: 3px;
+  padding: 4px;
+  background: var(--panel);
+  border: 2px dashed var(--accent);
+  border-radius: 8px;
+  cursor: grab;
+}
+
+.read-pill:active { cursor: grabbing; }
+.read-pill.dragging { opacity: 0.4; }
+
+.read-pill.locked {
+  cursor: default;
+  border-color: var(--subtext);
+}
+
+.read-pill .base {
+  width: 40px;
+  height: 46px;
+  font-size: 1.2rem;
+}
+
+.read-pill.placed {
+  border-style: solid;
+  height: 100%;
+  width: 100%;
+  align-self: stretch;
+  padding: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.read-pill.placed .base {
+  width: auto;
+  height: 100%;
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+.track {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: 54px;
+  row-gap: 8px;
+  column-gap: 3px;
+  background: var(--panel);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.track-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SF Mono", Consolas, Menlo, monospace;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--subtext);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 4px;
+}
+
+.track-cell.correct-flash {
+  outline: 2px solid var(--correct);
+}
+
+.track-cell.incorrect-flash {
+  outline: 2px solid var(--incorrect);
+}
+
+.snp-highlight {
+  outline: 3px solid #facc15 !important;
+  box-shadow: 0 0 14px 3px rgba(250, 204, 21, 0.85);
+  z-index: 5;
+  position: relative;
+  animation: snp-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes snp-pulse {
+  0%, 100% { box-shadow: 0 0 6px 2px rgba(250, 204, 21, 0.6); }
+  50% { box-shadow: 0 0 18px 6px rgba(250, 204, 21, 1); }
+}
+
+.deletion-highlight {
+  outline: 3px dashed var(--incorrect) !important;
+  box-shadow: 0 0 14px 3px rgba(239, 68, 68, 0.7);
+  background: rgba(239, 68, 68, 0.15) !important;
+  z-index: 5;
+  position: relative;
+  animation: deletion-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes deletion-pulse {
+  0%, 100% { box-shadow: 0 0 6px 2px rgba(239, 68, 68, 0.5); }
+  50% { box-shadow: 0 0 18px 6px rgba(239, 68, 68, 0.9); }
+}
+
+.insight-prompt {
+  text-align: left;
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1rem;
+}
+
+.insight-prompt-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.insight-answer-input {
+  width: 100%;
+  resize: vertical;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--subtext);
+  border-radius: 6px;
+  padding: 0.6rem 0.75rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.insight-callout {
+  text-align: left;
+  background: var(--panel);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0 0 1rem;
+}
+
+.inline-base {
+  display: inline-flex;
+  width: 1.6em;
+  height: 1.6em;
+  vertical-align: middle;
+  margin: 0 0.15em;
+}
+
+.feedback {
+  min-height: 1.5rem;
+  font-weight: 600;
+}
+
+.feedback.correct { color: var(--correct); }
+.feedback.incorrect { color: var(--incorrect); }
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.score {
+  color: var(--subtext);
+}
